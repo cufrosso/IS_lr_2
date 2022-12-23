@@ -1,0 +1,136 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+body {
+    background: #A1C67C;
+    font-family:/* 'Sarabun'*/,monospace;
+    font-size: 18px;
+}
+
+.gl {
+    margin: 0px auto 50px;
+    overflow: auto;
+    display: block;
+    flex-direction: column;
+    width: 1300px;
+    background: rgba(93, 91, 107, 0.19);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.form {
+    background: rgba(95, 123, 167, 0.28);
+    display: block;
+    flex-direction: column;
+    padding: 20px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #827A7A;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.login {
+    font-size: 20px;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #5E6DA0;
+    outline: none;
+    background: rgba(95, 123, 167, 0.001);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    font-size: 20px;
+    white-space: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    resize: none;
+    width: 1170px;
+    height: 100px;
+    background: rgba(95, 123, 167, 0.1);
+    border-radius: 15px;
+    border: 2px solid #D9D9D9;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #5E6DA0;
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgba(91, 96, 140, 0.40);
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.post {
+    background: rgba(121, 134, 154, 0.28);
+    overflow: auto;
+    display: block;
+    flex-direction: column;
+    padding: 20px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #827A7A;
+}
+
+.user {
+    text-align: center;
+    padding-bottom: 15px;
+    border: unset;
+    border-bottom: 2px solid #D9D9D9;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.text {
+    line-height: 1;
+    text-align: justify;
+    line-height: 1;
+    padding-bottom: 15px;
+    border: unset;
+    border-bottom: 2px solid #827A7A;
+    margin: 10px auto;
+    width: 1100px;
+}
+
+.update .text {
+    font-weight: bold;
+}
+
+.hide {
+	display: none;
+}
+.fa-thumbs-up, .fa-thumbs-o-up {
+	transform: rotateY(-180deg);
+	font-size: 1.3em;
+}
