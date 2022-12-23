@@ -20,20 +20,28 @@
 ![lr_1](хореография.png)
 
 4. Структура БД
+posts
+| id | text | likes | dtime |
+| ------ | ------ | ------ | ------ |
 
-| id | login | email | password | secret_word |
-| ------ | ------ | ------ | ------ | ------ |
+- id : INT(150), PRIMARY KEY, AUTO_INCREMENT
+(уникальный идентификатор поста)
+- text : VARCHAR(2000)
+(текст поста)
+- likes: INT(200)
+(лайки поста)
+dtime: date
+(время публикации поста)
 
-- id : INT(11), PRIMARY KEY, AUTO_INCREMENT
-(уникальный идентификатор пользователя)
-- login : VARCHAR(250), по умолчанию NULL
-(логин)
-- email: VARCHAR(255), по умолчанию NULL
-(почта)
-pass: VARCHAR(500), по умолчанию NULL
-(хешированный пароль)
-- secret_word: VARCHAR(255), по умолчанию NULL
-(хешированное секретное слово для восстановления пароля)
+likes
+| id | userid | postid |
+| ------ | ------ | ------ |
+- id : INT(150), PRIMARY KEY, AUTO_INCREMENT
+(уникальный идентификатор лайка)
+- userid : INT(150)
+(id пользователя)
+- postid: INT(150)
+(id поста)
 
 5. Алгоритмы
 
