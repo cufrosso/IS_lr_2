@@ -61,65 +61,27 @@
 
 *Запрос*
 
-POST 
-http://line/post.php
-Status: HTTP/1.1 302 Found
-Request Headers
-Accept	
-text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
-Content-Type	
-multipart/form-data; boundary=----WebKitFormBoundaryrLqApbntyDF9f6ma
-Upgrade-Insecure-Requests	
-1
-User-Agent	
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.3.818 Yowser/2.5 Safari/537.36
-Response Headers
-Cache-Control	
-no-store, no-cache, must-revalidate
-Connection	
-Keep-Alive
-Content-Length	
-40
-Content-Type	
-text/html; charset=UTF-8
-Date	
-Sat, 17 Dec 2022 20:07:36 GMT
-Expires	
-Thu, 19 Nov 1981 08:52:00 GMT
-Keep-Alive	
-timeout=120, max=1000
-Location	
-../index.php
-Pragma	
-no-cache
-Server	
-Apache  
+POST /lr_2/post.php HTTP/1.1
+Host: localhost
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryZKZMQG3xtLB9EA47
+sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
 *Ответ*
 
-GET 
-http://line/index.php
-Status: HTTP/1.1 200 OK
-Request Headers
-Accept	
-text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
-Upgrade-Insecure-Requests	
-1
-User-Agent	
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.3.818 Yowser/2.5 Safari/537.36
-Response Headers
-Connection	
-Keep-Alive
-Content-Type	
-text/html; charset=UTF-8
-Date	
-Sat, 17 Dec 2022 20:07:36 GMT
-Keep-Alive	
-timeout=120, max=999
-Server	
-Apache
-Transfer-Encoding	
-chunked
+HTTP/1.1 302 Found
+Connection: Keep-Alive
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 24 Dec 2022 06:29:18 GMT
+Keep-Alive: timeout=120, max=999
+Location: index.php
+Server: Apache
+X-Content-Type-Options: nosniff
 
 7. Значимые фрагменты кода
 
