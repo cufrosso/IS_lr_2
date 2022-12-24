@@ -40,9 +40,7 @@
 
 7. Значимые фрагменты кода
 
-**Пагинация**
-
-**Уменьшение счётчика лайка(или дизлайк)**
+*Уменьшение счётчика лайка(или дизлайк)*
 ```php
 if (isset($_POST['unliked'])) {
 		$post_id = $_POST['postid'];
@@ -61,6 +59,7 @@ if (isset($_POST['unliked'])) {
 	}
 ```
 
+*Пагинация*
 ```php
 $post = mysqli_query($connect, "SELECT * FROM post ORDER BY id DESC");
     $posts = mysqli_fetch_all($post);
