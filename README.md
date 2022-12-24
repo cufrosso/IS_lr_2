@@ -40,20 +40,25 @@
 5. Алгоритмы
 
 *Добавление записи*
+
 ![Добавление](https://github.com/totomiPo/Forum/blob/main/img/Создание%20поста.png)
 
 *Удаление записи*
+
 ![Удаление](https://github.com/totomiPo/Forum/blob/main/img/Удаление.png)
 
 *Обновление записи*
+
 ![Обновление](https://github.com/totomiPo/Forum/blob/main/img/Изменение%20поста.png)
 
 *Реакция на запись*
+
 ![Реакция](https://github.com/totomiPo/Forum/blob/main/img/Лайки.png)
 
 6. HTTP запросы/ответы
 
 *Запрос*
+
 POST 
 http://line/post.php
 Status: HTTP/1.1 302 Found
@@ -89,6 +94,7 @@ Server
 Apache  
 
 *Ответ*
+
 GET 
 http://line/index.php
 Status: HTTP/1.1 200 OK
