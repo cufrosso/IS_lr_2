@@ -39,21 +39,17 @@
 
 5. Алгоритмы
 
-*Добавление записи*
+*Add post*
 
-![Добавление](https://github.com/totomiPo/Forum/blob/main/img/Создание%20поста.png)
+![add](алгоритмы1.png)
 
-*Удаление записи*
+*Delete post*
 
-![Удаление](https://github.com/totomiPo/Forum/blob/main/img/Удаление.png)
+![delete](алгоритмы2.png)
 
-*Обновление записи*
+*Reaction*
 
-![Обновление](https://github.com/totomiPo/Forum/blob/main/img/Изменение%20поста.png)
-
-*Реакция на запись*
-
-![Реакция](https://github.com/totomiPo/Forum/blob/main/img/Лайки.png)
+![Reaction](алгоритмы3.png)
 
 6. HTTP запросы/ответы
 
