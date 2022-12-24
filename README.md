@@ -16,6 +16,8 @@
 
 3. API сервера и хореография\
 
+![lr_1](хореография.png)
+
 ![Реакция](https://github.com/totomiPo/Forum/blob/main/img/Реакция%20-%20хореография.png)
 
 ![Удаление](https://github.com/totomiPo/Forum/blob/main/img/Удаление%20-%20хореография.png)
