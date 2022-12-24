@@ -16,11 +16,11 @@
 
 3. API сервера и хореография\
 
-![Удаление](add.png)
+![Добавление](add.png)
 
-![Реакция](https://github.com/totomiPo/Forum/blob/main/img/Реакция%20-%20хореография.png)
+![Реакция](.png)
 
-![Удаление](https://github.com/totomiPo/Forum/blob/main/img/Удаление%20-%20хореография.png)
+![Удаление](delete.png)
 
 4. Структура БД
 
