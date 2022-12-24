@@ -41,3 +41,41 @@
 7. Значимые фрагменты кода
 
 **Пагинация**
+
+**Уменьшение счётчика лайка(или дизлайк)**
+```php
+if (isset($_POST['unliked'])) {
+		$post_id = $_POST['postid'];
+		$result = mysqli_query($connect, "SELECT * FROM post WHERE id = $post_id");
+		$row = mysqli_fetch_array($result);
+		$like = $row['likes'];
+        if ($like < 0){
+            $like = 0;
+        }
+
+		mysqli_query($connect, "DELETE FROM likes WHERE postid = $post_id");
+		mysqli_query($connect, "UPDATE post SET likes = $like - 1 WHERE id = $post_id");
+
+		echo $like - 1;
+		exit();
+	}
+```
+
+```php
+$post = mysqli_query($connect, "SELECT * FROM post ORDER BY id DESC");
+    $posts = mysqli_fetch_all($post);
+
+    $total = count($posts); // кол-во постов
+    $per_page = 7; // кол-во постов на одну стр
+    $count_page = ceil( $total / $per_page ); // кол-во страниц
+    $page = $_GET['page']??1; // определение страницы по GET
+    $page = (int)$page;
+
+    if(!$page || $page < 1){
+        $page = 1;
+    } else if ($page > $count_page) {
+        $page = $count_page;
+    }
+    $start = ($page - 1) * $per_page;
+```
+
